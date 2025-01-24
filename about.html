@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VICTARA INSTITUTION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo123.png" alt="logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class='bx bx-x' onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <section class="About-con">
+        <section class="row">
+            <section class="column">
+                <h1>We are the Largest University in the World</h1>
+                <p>A "largest university" refers to the university with the highest number of enrolled students, meaning it has the biggest student body compared to other universities, usually measured by total active enrollment across all campuses and study modes.By largest I assume that you mean the university that admits most number of applicants. Indira Gandhi National Open University (IGNOU) which is India's and also the world's largest university in terms of student population. It has the total active enrollment of over 4 million students.</p>
+                <a href="" class="button red">Explore now</a>
+            </section>
+            <section class="column">
+                <img src="about us down.jpg" alt="">
+            </section>
+        </section>
+    </section>
+
+
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+
+    </script>
+
+   
+
+    
+
+
+<section class="footer">
+       
+    <h4>About Us</h4>
+    <p>Convey who you are, what your values and principles are, how you got to where you are, and why your product or service is important to you. </p>
+    <div class="icon">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-linkedin'></i>
+    </div>
+</section>
+
+</body>
+
+</html>
